@@ -1,0 +1,316 @@
+/* ----------------------------------
+   COLOR VARIABLES
+----------------------------------- */
+:root {
+    --primary: #127475;      /* teal */
+    --primary-dark: #0b4a4b;
+    --secondary: #f7b538;    /* gold */
+    --light: #ffffff;
+    --text-dark: #222;
+    --body-font: Arial, Helvetica, sans-serif;
+    --heading-font: Georgia, serif;
+}
+
+/* ----------------------------------
+   RESET
+----------------------------------- */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--body-font);
+    color: var(--text-dark);
+    background: #f5f5f5;
+}
+
+/* ----------------------------------
+   GLOBAL WIDTH
+----------------------------------- */
+header, main, footer {
+    width: 840px;
+    margin: 0 auto;
+    background: var(--light);
+}
+
+/* ----------------------------------
+   HEADER
+----------------------------------- */
+header {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    padding: 20px;
+}
+
+header .logo {
+    width: 140px;
+    height: auto;
+}
+
+nav a {
+    display: block;
+    margin: 6px 0;
+    text-decoration: none;
+    font-weight: bold;
+    color: var(--primary-dark);
+}
+
+nav a:hover {
+    color: var(--secondary);
+}
+
+/* ----------------------------------
+   HERO
+----------------------------------- */
+.hero {
+    position: relative;
+}
+
+.hero img {
+    width: 100%;
+    display: block;
+}
+
+/* Hero Title Bar */
+.hero h1 {
+    position: absolute;
+    top: 140px;
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+    background: rgba(18, 116, 117, 0.85);
+    color: var(--light);
+    font-family: var(--heading-font);
+    font-size: 2rem;
+}
+
+/* Article overlay */
+.hero-article {
+    position: absolute;
+    bottom: 30px;
+    left: 0;
+    width: 100%;
+    padding: 20px;
+    background: rgba(18, 116, 117, 0.9);
+    color: var(--light);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.hero-article p {
+    width: 80%;
+    line-height: 1.5;
+}
+
+.hero-article img {
+    width: 120px;
+    border: 3px solid var(--secondary);
+    border-radius: 4px;
+}
+
+/* ----------------------------------
+   SECTION HEADERS
+----------------------------------- */
+section h2 {
+    background: var(--primary);
+    padding: 12px;
+    text-align: center;
+    color: var(--light);
+    font-family: var(--heading-font);
+    margin-top: 20px;
+}
+
+/* ----------------------------------
+   HISTORY SECTION
+----------------------------------- */
+.history p {
+    padding: 20px;
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
+/* ----------------------------------
+   ADVENTURE SECTION
+----------------------------------- */
+.adventure {
+    margin-bottom: 20px;
+}
+
+/* ----------------------------------
+   FOOTER
+----------------------------------- */
+footer {
+    text-align: center;
+    padding: 20px;
+}
+
+.socialmedia img {
+    width: 32px;
+    margin: 0 10px;
+}
+
+.socialmedia a {
+    text-decoration: none;
+}
+/* ----------------------------------
+   COLOR VARIABLES
+----------------------------------- */
+:root {
+    --primary: #127475;      /* teal */
+    --primary-dark: #0b4a4b;
+    --secondary: #f7b538;    /* gold */
+    --light: #ffffff;
+    --text-dark: #222;
+    --body-font: Arial, Helvetica, sans-serif;
+    --heading-font: Georgia, serif;
+}
+
+/* ----------------------------------
+   RESET
+----------------------------------- */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--body-font);
+    color: var(--text-dark);
+    background: #f5f5f5;
+}
+
+/* ----------------------------------
+   GLOBAL WIDTH
+----------------------------------- */
+header, main, footer {
+    width: 900px;
+    margin: 0 auto;
+    background: var(--light);
+}
+
+/* ----------------------------------
+   HEADER
+----------------------------------- */
+header {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    padding: 20px;
+}
+
+header .logo {
+    width: 140px;
+    height: auto;
+}
+
+nav a {
+    display: block;
+    margin: 6px 0;
+    text-decoration: none;
+    font-weight: bold;
+    color: var(--primary-dark);
+}
+
+nav a:hover {
+    color: var(--secondary);
+}
+
+/* ----------------------------------
+   HERO
+----------------------------------- */
+.hero {
+    position: relative;
+}
+
+.hero img {
+    width: 100%;
+    display: block;
+}
+
+/* Hero Title Bar */
+.hero h1 {
+    position: absolute;
+    top: 140px;
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+    background: rgba(18, 116, 117, 0.85);
+    color: var(--light);
+    font-family: var(--heading-font);
+    font-size: 2rem;
+}
+
+/* Article overlay */
+.hero-article {
+    position: absolute;
+    bottom: 30px;
+    left: 0;
+    width: 100%;
+    padding: 20px;
+    background: rgba(18, 116, 117, 0.9);
+    color: var(--light);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.hero-article p {
+    width: 80%;
+    line-height: 1.5;
+}
+
+.hero-article img {
+    width: 120px;
+    border: 3px solid var(--secondary);
+    border-radius: 4px;
+}
+
+/* ----------------------------------
+   SECTION HEADERS
+----------------------------------- */
+section h2 {
+    background: var(--primary);
+    padding: 12px;
+    text-align: center;
+    color: var(--light);
+    font-family: var(--heading-font);
+    margin-top: 20px;
+}
+
+/* ----------------------------------
+   HISTORY SECTION
+----------------------------------- */
+.history p {
+    padding: 20px;
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
+/* ----------------------------------
+   ADVENTURE SECTION
+----------------------------------- */
+.adventure {
+    margin-bottom: 20px;
+}
+
+/* ----------------------------------
+   FOOTER
+----------------------------------- */
+footer {
+    text-align: center;
+    padding: 20px;
+}
+
+.socialmedia img {
+    width: 32px;
+    margin: 0 10px;
+}
+
+.socialmedia a {
+    text-decoration: none;
+}
